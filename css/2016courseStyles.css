@@ -1,8 +1,13 @@
 body {
 	background-color: #ace742;
+	background-color: ##C7F9A2;
+	/*background-color: #bfefb6;*/
+	background-color: #359b28;
+	/*background-color: white;*/
 	color:#e6e6e6;
 	color:white;
 	color: #3e2c0f;
+	margin-top: 15px;
 }
 
 .page-header {
@@ -17,9 +22,14 @@ h1 {
 	background-color: #20661b;
 	color:#3e2c0f;
 	color: #eb780a;
+	color: #B4591F;
+	color: #ace742;
+	/*color: #359b28;*/
+
 	font-size: 22pt;
 	height:100px;
 	/*max-height: 200px;*/
+	margin-top: 15px;
 	max-width:500px;
 	padding-left: 30px;
 	padding-top:30px;
@@ -30,13 +40,14 @@ ul {
 }
 
 li a {
+
 	color:#f69f19;
-	color: #3e2c0f;
-	color:white;
+	color: #903A2A;
+	/*color:white;*/
 /*	color:red;	
 	color: #ea0fbf;*/
 	display: inline-block;
-	font-size: 10pt; 
+	font-size: 12pt; 
 	list-style: none;
 	margin-top: -5px;
 	margin-bottom: 10px;
@@ -61,34 +72,54 @@ p a {
 
 .assignment {
 	/*color: #F20CC8;*/
-	color: black;
-	margin-top:30px;
+	color: #4B1C13;
+	color:#914502;
+	color: #ace742;
+	/*color: #ace742;*/
+/*	color:#391D04;
+	color:#F11092;*/
+	margin-top:5px;
 	margin-bottom:30px;
 	background-color: yellow;
 	background-color: #640fea;
 	background-color:#d394ff;
 	background-color: #eb780a;
-	font-size: 12pt; 
+	background-color: #F11092;
+	background-color: #820975;
+	background-color: #c4032a;
+	background-color: #a8440f;
+	/*background-color: #737773;*/
+	font-size: 16pt; 
 	/*height:100px;*/
+	margin-left: -15px;
 	max-width:500px;
 	padding-left: 30px;
+	padding-right: 30px;
 	padding-top:30px;
 	padding-bottom:30px;
 }
 
+
 .date{
-	font-size:18pt;
+
+	color: 4B1C13;
+	color: #ace742;
+	font-size:22pt;
 	margin-left: 20px;
+	/*-webkit-text-stroke: 0.8px black;*/
 }
 
 .dayTheme {
-	margin-left: 20px;
+	
+	color: 4B1C13;
+	color: #ace742;
+	margin-left: 24px;
 /*	color: black; 
 	font-family:"Minion Pro", serif; 
 	font-style: normal; 
 	font-weight: normal; 
 	text-decoration: none; */
-	font-size: 18pt; 
+	font-size: 22pt; 
 	max-width:400px;
 }
 
@@ -101,6 +132,8 @@ p a {
 }*/
 
 .linkz{
+
+	color: 4B1C13;
 	font-size: 12pt;
 	margin-top:15px;
 	margin-left: 20px;
@@ -208,13 +241,13 @@ p a {
 }
 
 .subTitle {
-	font-size:10pt;
+	font-size:14pt;
 	max-width:400px;
 	margin-left: 20px;
 }
 
 .names {
-	font-size:8pt;
+	font-size:10pt;
 	max-width:400px;
 	margin-left: 20px;
 }
@@ -237,7 +270,9 @@ p a {
 .byLine {
 	background-color: #844125;
 	color:#ace742;
+	font-size: 20px;
 	margin-left: -30px;
+	margin-top: -10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
@@ -258,4 +293,22 @@ p a {
 
 .critText {
 		font-size: 60px;
+}
+
+#mainInfo {
+	/*background-color: #efffd3 !important;*/
+	background-color:#22381d;
+	background-color: #062100;
+
+	color: #ace742;
+	margin-left: -15px;
+	margin-top: 20px;
+	max-width:500px;
+	padding-top: 20px;
+	padding-bottom:20px;
+/*	background-color: yellow !important; 
+*/}
+
+.unitName {
+	margin-left: -15px;
 }
