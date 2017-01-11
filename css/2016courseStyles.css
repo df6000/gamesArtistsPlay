@@ -203,6 +203,11 @@ p a {
 	max-width:140px;
 }
 
+.rulesPageBody {
+	background-color: black;
+	margin-left: -30px;
+	max-width: 500px;
+}
 
 /*.panel {
 	float: right;
@@ -210,20 +215,20 @@ p a {
 .panel-body{
 	background-color: #3e2c0f;
 	background-color: #ba9d7f;
-	background-color:white;
+	/*background-color:white;*/
 	/*background-color: black;*/
 	color:brown;
 	/*color:white;*/
 	/*color:#640fea;*/
-	font-size: 16px;
-	font-size: 12px;
+	font-size: 18px;
+	/*font-size: 12px;*/
 	/*-webkit-text-stroke: 0.4px black;*/
 }
 
-#orangeyBlock{
+#blackWhite{
 	background-color: #f69f19;
 	background-color: #eb780a;
-	background-color: #d8d5d5;
+	background-color: black;
 	color:white;
 	/*background-color: grey;*/
 }
