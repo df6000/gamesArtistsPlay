@@ -70,6 +70,12 @@ p a {
 	color: brown;
 }
 
+.mail {
+	color:white;
+text-decoration: underline;
+	/*color: #F11092;*/
+}
+
 .assignment {
 	/*color: #F20CC8;*/
 	color: #4B1C13;
@@ -101,11 +107,11 @@ p a {
 
 
 .date{
-
 	color: 4B1C13;
 	color: #ace742;
 	font-size:22pt;
 	margin-left: 20px;
+	padding-bottom: 5px;
 	/*-webkit-text-stroke: 0.8px black;*/
 }
 
@@ -249,50 +255,76 @@ p a {
 }
 
 .subTitle {
-	font-size:14pt;
-	max-width:400px;
-	margin-left: 20px;
+	background-color: #7c651d;
+	color: #916b70;
+	color: #efaac7;
+	color: #cebec0;
+	color: #f93650;
+	color: #6d1521;
+	font-size:12pt;
+	max-width:500px;
+	margin-left: 0px;
+	margin-top: -10px;
+	padding: 10px 10px 10px 10px;
 }
 
 .names {
+	background-color: #ce9665;
+	color:brown;
 	font-size:10pt;
-	max-width:400px;
-	margin-left: 20px;
+	margin-top: -10px;
+	padding: 10px 10px 10px 10px;
+	max-width:500px;
+	margin-left: 0px;
 }
 
 
 .crits {
 	background-color: #844125;
+	background-color: #5e2104;
 	color:#f442eb;
 	color:#ace742;
-	font-size:12pt;
+	color: #f20424;
+	color: #c1011b;
+	color:#822035;
+	color:#d80fcb;
+	font-size:10pt;
 	max-width:500px;
 	margin-left: 0px;
-		padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-top: -10px;
+		padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
-.blender {
+.lab {
 	background-color: #844125;
 	color:#f442eb;
+	color: #efaac7;
+	color: #916b70;
+	color:#e82952;
+	color: #ffa0b5;
+	color: #822035;
+	color:#e874e0;
 	/*color:#ace742;*/
-	font-size:12pt;
+	font-size:10pt;
 	max-width:500px;
 	margin-left: 0px;
-		padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-top: -10px;
+		padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
 .byLine {
 	background-color: #844125;
 	color:#ace742;
-	font-size: 20px;
+	color: white;
+	font-size: 16px;
 	margin-left: -30px;
 	margin-top: -10px;
 	padding-top: 20px;
@@ -326,7 +358,7 @@ p a {
 	margin-left: -15px;
 	margin-top: 20px;
 	max-width:500px;
-	padding-top: 20px;
+	padding-top: 5px;
 	padding-bottom:20px;
 /*	background-color: yellow !important; 
 */}
