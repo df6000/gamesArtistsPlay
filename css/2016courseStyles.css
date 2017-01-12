@@ -163,6 +163,7 @@ p a {
 	background-color: red;
 	background-color: #ea0fbf;
 	background-color: white;
+	background-color: #e24ace;
 	color: white; 
 
 }
@@ -262,6 +263,20 @@ p a {
 	background-color: #844125;
 	color:#f442eb;
 	color:#ace742;
+	font-size:12pt;
+	max-width:500px;
+	margin-left: 0px;
+		padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.blender {
+	background-color: #844125;
+	color:#f442eb;
+	/*color:#ace742;*/
 	font-size:12pt;
 	max-width:500px;
 	margin-left: 0px;
