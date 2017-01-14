@@ -7,7 +7,7 @@
 <!-- <script type="text/javascript" src="js/randomWorks.js"></script> -->
 <script id="image-template" type="text/x-handlebars-template">
 {{#each images}}
-  <img src="{{image}}" alt="" class="images">
+  <a href="{{link}}"><img src="{{image}}" alt="" class="images"></a>
 {{/each}}	
 }
 }
@@ -35,21 +35,16 @@
  
   var template = Handlebars.compile(imageTemplate);
 
-var x1,x2,x3,x4,x5;
 
  var imagesStatic = [
-  	{image:"images/abstract2Layers.jpg"},
-  	{image:"images/flyingSaucer.jpg"},
-  	{image:"images/flyingSaucerPeople.jpg"},
+  	{image:"images/abstract2Layers.jpg",
+  	link:"resources.html"	},
+  	{image:"images/flyingSaucer.jpg",
+  	link:"rules.html"	},
+  	{image:"images/flyingSaucerPeople.jpg",
+  	link:"index.html"	},
 
   ];
-
-x1=Math.floor(Math.random() * imagesStatic.length);
-x2=Math.floor(Math.random() * imagesStatic.length);
-x3=Math.floor(Math.random() * imagesStatic.length);
-x4=Math.floor(Math.random() * imagesStatic.length);
-x5=Math.floor(Math.random() * imagesStatic.length);
-
 
 
 function shuffle(array) {
