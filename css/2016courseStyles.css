@@ -98,6 +98,7 @@ text-decoration: underline;
 	font-size: 16pt; 
 	/*height:100px;*/
 	margin-left: -15px;
+	margin-top: -10px;
 	max-width:500px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -364,5 +365,15 @@ text-decoration: underline;
 */}
 
 .unitName {
+	margin-left: -15px;
+}
+
+.movieNight {
+	background-color: yellow;
+	color: brown;
+		font-size:12pt;
+	margin-top: 0px;
+	padding: 10px 10px 10px 10px;
+	max-width:500px;
 	margin-left: -15px;
 }
