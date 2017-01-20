@@ -1,3 +1,63 @@
+nav {
+	background-color: #0f440a;
+	color: white;
+	margin-top: -70px;
+	margin-bottom: -20px;
+	padding: 30px; 
+	/*padding-bottom: -30px;*/
+}
+
+.myNavUl {
+	margin-left: -50px;
+	margin-bottom:-30px;
+	margin-top: -10px;
+	/*padding: 10px;*/
+}
+
+
+.navTitle {
+	background-color: #3e2c0f;
+	color: white; 
+	margin-left:0px;
+	padding: 10px;
+	
+}
+
+#resources  {
+	background-color: #ba9d7f;
+	color:white;
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+	padding: 10px;
+	/*margin-top: 10px;*/
+	max-width:100px;
+
+}
+
+#studentWork {
+	background-color: #844125;
+		color:white;
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+	/*margin-top: 10px;*/
+	max-width:140px;
+	padding:10px;
+}
+
+#rules {
+	background-color: #38280e;
+		color:white;
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+	/*margin-top: 10px;*/
+	max-width:140px;
+	padding: 10px;
+}
+
+
+
+
+
 body {
 	background-color: #ace742;
 	background-color: ##C7F9A2;
@@ -35,9 +95,14 @@ h1 {
 	padding-top:30px;
 }
 
-ul {
+ul li {
 	list-style: none;
+	display:inline;
+	/*margin-left:-50px;*/
 }
+
+
+
 
 li a {
 
@@ -51,7 +116,7 @@ li a {
 	list-style: none;
 	margin-top: -5px;
 	margin-bottom: 10px;
-	margin-left: 10px;
+/*	margin-left: 10px;*/
 	max-width:600px;
 	/*-webkit-text-stroke: 0.8px black;*/
 
@@ -177,41 +242,18 @@ text-decoration: underline;
 
 }
 
+.navlink {
+	display: inline;
+	padding:10px;
+	margin:10px;
+}
+
 .navbar-brand {
 	background-color: #3e2c0f;
-	/*background-color: #f69f19;*/
-	/*margin-top: 10px;*/
 	color: white; 
 	
 }
 
-#resources  {
-	background-color: #ba9d7f;
-	color:white;
-	/*margin-right: 10px;*/
-	margin-left: 10px;
-	/*margin-top: 10px;*/
-	max-width:100px;
-
-}
-
-#studentWork {
-	background-color: #844125;
-		color:white;
-	/*margin-right: 10px;*/
-	margin-left: 10px;
-	/*margin-top: 10px;*/
-	max-width:140px;
-}
-
-#rules {
-	background-color: #38280e;
-		color:white;
-	/*margin-right: 10px;*/
-	margin-left: 10px;
-	/*margin-top: 10px;*/
-	max-width:140px;
-}
 
 .rulesPageBody {
 	background-color: black;
