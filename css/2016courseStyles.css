@@ -436,6 +436,12 @@ text-decoration: underline;
 	/*background-color: grey;*/
 }
 
+
+#randomNames {
+	color:pink;
+	font-size: 40px;
+	max-width:720px;
+}
 /*
 
 .project {
