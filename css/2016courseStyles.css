@@ -311,8 +311,8 @@ text-decoration: underline;
 	font-size: 14px;
 	margin-left: -30px;
 	margin-top: -10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 20px; 
+	padding-bottom: 20px;	
 	padding-left: 30px;
 	padding-right: 20px;
 	max-width:500px;
@@ -364,7 +364,26 @@ text-decoration: underline;
 }
 
 
+.gameHeader {
+		background-color:#ace742;
+	color: #20661b;
+	margin-left: -30px;
+	margin-top: -20px;
+	padding: 10px 40px 10px 150px;
+	max-width:500px;
 
+}
+
+.gameProject {
+
+
+		background-color: green;	
+	color: #ace742;
+	font-size:18px;
+		padding: 10px 40px 10px 30px;
+	max-width:500px;
+	margin-left: -30px;
+}
 
 
 
@@ -399,6 +418,24 @@ text-decoration: underline;
 	margin-top:15px;
 	margin-left: 20px;
 }
+
+#imageDiv {
+	margin-top: 120px;
+}
+
+
+.resources {
+	font-size: 20px;
+
+}
+#blackWhite{
+	background-color: #f69f19;
+	background-color: #eb780a;
+	background-color: black;
+	color:white;
+	/*background-color: grey;*/
+}
+
 /*
 
 .project {
@@ -450,13 +487,7 @@ text-decoration: underline;
 }
 */
 /*
-#blackWhite{
-	background-color: #f69f19;
-	background-color: #eb780a;
-	background-color: black;
-	color:white;
-	/*background-color: grey;*/
-}
+
 
 /*#crit {
 	background-color: #E80C89;
