@@ -29,11 +29,11 @@
 
 
  
-var names=[];
+var wordArray=[];
 var index;
 
-names = students.map(x=>x.name);
-console.log(names);
+wordArray = students.map(x=>x.words);
+console.log(wordArray);
 
 function setup() {
   frameRate(5);
@@ -43,7 +43,14 @@ background(255);
 }
 
 
-
+function mouseClicked() {
+      background(255);
+  wordArray[int(random(wordArray.length))].map(function(word){
+       textSize(random(30,150));
+ fill(random(255),random(255),random(255));
+ text(word,random(10,300),random(100,600));
+  })
+}
 
 
 // function mouseClicked() {
