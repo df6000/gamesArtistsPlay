@@ -11,11 +11,16 @@
   ];
   
 
-var eachStudentWords2DArray=[];
+var eachStudentWordsArray=[];
+
+
+
+
+
 // [["student1word1","student1word2","student1word3"],["student2word1","student2word2","student2word3"],["student3word1","student3word2","student3word3"],etc]
 
 for(var i=0;i<students.length;i++) {
-  eachStudentWords2DArray[i] = students[i].words;
+  eachStudentWordsArray[i] = students[i].words;
 }
 
 
@@ -39,9 +44,9 @@ background(255);
 function mouseClicked() {
 background(255);
 // index=Math.floor(Math.random(achStudentWords2DArray.length));
-var index= int(random(achStudentWords2DArray.length));
+var index= int(random(eachStudentWordsArray.length));
 
-var arrayOfThree = eachStudentWords2DArray[index];
+var arrayOfThree = eachStudentWordsArray[index];
 // ["student1word1","student1word2","student1word3"]
 
 for(var k=0;k<arrayOfThree.length;k++) {

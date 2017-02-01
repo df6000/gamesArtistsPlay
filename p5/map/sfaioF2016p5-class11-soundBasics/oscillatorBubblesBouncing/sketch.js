@@ -3,15 +3,16 @@ var intersectionSound;
 var bubble;
 var bubbles=[];
 
-function preload() {
-  intersectionSound=loadSound();
-}
+// function preload() {
+//   intersectionSound=loadSound();
+// }
 
 function setup() {
   createCanvas(1000, 800);
    for (var i = 0; i < 6; i++) {
       bubbles[i] = new Bubble(random(width), random(height),random(20,120));
   }
+  console.log(bubbles[0]);
 }
 
 

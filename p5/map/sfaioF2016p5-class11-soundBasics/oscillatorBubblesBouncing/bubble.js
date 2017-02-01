@@ -45,7 +45,7 @@ function Bubble(x,y,r) {
     this.y = this.y+this.yVel;
     this.freq=map(this.x,0,1000,200,1400);
     this.osc.freq(this.freq);
-    this.amp = map(this.y,0,800,0,0.5);
+    this.amp = map(this.y,0,800,0,0.1);
     this.osc.amp(this.amp);
 
   }
