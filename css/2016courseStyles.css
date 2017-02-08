@@ -296,6 +296,16 @@ text-decoration: underline;
 }
 
 
+.fieldtrip {
+	color: #c1011b;
+	color:#f442eb;
+	font-size:30pt;
+		max-width:500px;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+
 .lab {
 	background-color: #844125;
 	color:#f442eb;
